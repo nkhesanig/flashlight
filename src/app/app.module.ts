@@ -6,6 +6,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
+import { Flashlight } from '@ionic-native/flashlight';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { HomePage } from '../pages/home/home';
     HomePage
   ],
   providers: [
+    Flashlight,
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler}

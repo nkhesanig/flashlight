@@ -1,3 +1,24 @@
 page-home {
+    ion-content{
 
+    background-image: url('../assets/imgs/flashlight.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    button{
+
+   background-color: dimgray!important;
+   width: 40%;
+   position: absolute;
+   transform: translateY(90%);
+   left:10%
+    }
+
+    
+    }
+    // ion-title{
+    //     background-color: dimgray;
+    // }
 }
